@@ -1,0 +1,127 @@
+/*.catlogo {*/
+	/*border-radius: 2rem;*/
+	/*padding-right: 0rem;*/
+/*}
+
+.formline {
+	width: 15rem;
+	height: 1.9rem;
+	margin-right: 68.9rem;
+	margin-bottom: 2.8rem;
+}
+*/
+body {
+	background-color: lightgrey;
+}
+.notification {
+	flex-direction: right;
+}
+.plussign {
+	margin-left: 40rem;
+}
+.no-space {
+	margin:0;
+
+
+}
+.contentmain {
+	padding-top: 2.5rem;
+	margin-left: 18rem;
+}
+.link {
+	margin-left: 37rem;
+}
+.formline {
+	width: 45rem;
+	height: 0.05rem;
+	background-color: grey;
+	border-color: grey;
+	margin-bottom: 2rem;
+
+}
+.Owner {
+	margin-left: 1rem;
+}
+.red {
+	color: red;      
+}
+.btn {
+	width: 12rem;
+	height: 2rem;
+	margin-left: 1rem;
+}
+/*.Owner2 {
+	width: 12rem;
+	height: 2rem;
+	margin-left: 1rem;
+}*/
+.Great {
+	margin-left: 1rem;
+}
+.Optional {
+	margin-left: 1rem;
+}
+.Description {
+	width: 40rem;
+	height: 2rem;
+}
+.formline2 {
+	width: 45rem;
+	height: 0.05rem;
+	background-color: grey;
+	border-color: grey;
+	margin-bottom: 2rem;
+	margin-left: 17.5rem;
+
+}
+.Initialize {
+	margin-left: 18.5rem;
+	margin-bottom: 0;
+}
+.skip {
+	margin-left: 18.5rem;
+	margin-top: 0;
+}
+.Readme {
+	margin-left: 18rem;
+	margin-top: 0;
+}
+.btn-success {
+	margin-left: 18.5rem;
+}
+.formline3 {
+	width: 60rem;
+	height: 0.05rem;
+	background-color: grey;
+	border-color: grey;
+	margin-bottom: 2rem;
+	margin-left: 10rem;
+
+}
+footer{
+	/*position: absolute;*/
+	margin-top: 1.5rem;
+	bottom: 0;
+	background-color: lightgrey;
+	width: 100%
+	padding: 1rem;
+}
+.catfooter {
+	margin-left: 10rem;
+}
+/*.size2 {
+	margin-left: 25rem;
+	width: 20rem;
+	padding: 0;
+	float: left;
+}*/
+/*.content1{
+	flex: justify-content;
+	width: 113rem;
+	padding-top: 2.5rem;
+	margin-right: 40rem;
+}
+.space-in {
+	margin:0;
+
+}*/
