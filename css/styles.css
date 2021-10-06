@@ -1,15 +1,4 @@
-/*.catlogo {*/
-	/*border-radius: 2rem;*/
-	/*padding-right: 0rem;*/
-/*}
 
-.formline {
-	width: 15rem;
-	height: 1.9rem;
-	margin-right: 68.9rem;
-	margin-bottom: 2.8rem;
-}
-*/
 body {
 	background-color: lightgrey;
 }
@@ -109,19 +98,110 @@ footer{
 .catfooter {
 	margin-left: 10rem;
 }
-/*.size2 {
-	margin-left: 25rem;
-	width: 20rem;
-	padding: 0;
-	float: left;
-}*/
-/*.content1{
-	flex: justify-content;
-	width: 113rem;
-	padding-top: 2.5rem;
-	margin-right: 40rem;
-}
-.space-in {
-	margin:0;
+/*#############ISSUES PAGE CSS#############*/
 
+.issuescontent {
+	padding-top: 2rem;
+	margin-left: 15rem;
+}
+
+.issuesbutton {
+	margin-right: 5rem;
+	border-radius: 1rem;
+	width: 10rem;
+	height: 2rem;
+
+}
+
+.issuesinput {
+	margin-left: 5rem;
+
+}
+.searchmain {
+	width: 40rem;
+	margin-left: 4.5rem;
+}
+
+/*.searchbox {
+	padding-left: 1.4rem;
 }*/
+.form-control-feedback {
+	position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: black;
+}
+.closed-link {
+	margin-right: 27.6rem;
+	width: 5rem;
+}
+.openlink {
+	margin-left: 0.05rem;
+	width: 6rem;
+}
+.filterorganization {
+	width: 12rem;
+	margin-left: 0.7rem;
+}
+.Korkoricon {
+	margin-left: 1rem;
+	font-weight: bold;
+}
+
+.sort {
+	padding-right: 0.9rem;
+}
+.card-body {
+	margin-left: 7rem;
+	margin-right: 2rem;
+	width: 51rem;
+	height: 20rem;
+	padding-right: 3rem;
+	padding-left: 4rem;
+
+}
+.noresults {
+	padding-top: 7rem;
+}
+.Protip {
+	margin-top: 2rem;
+	margin-left: 15rem;
+	text-align: center;
+}
+.fa-lightbulb {
+	margin-right: 1rem;
+}
+.formline4 {
+	width: 60rem;
+	height: 0.05rem;
+	background-color: grey;
+	border-color: grey;
+	margin-bottom: 2rem;
+	margin-left: 1rem;
+}
+.footer-align {
+	/*position: absolute;*/
+	margin-top: 1.5rem;
+	bottom: 0;
+	background-color: lightgrey;
+	width: 100%
+	padding: 1rem;
+	margin-right: 15rem;
+}
+.formline5 {
+	width: 55rem;
+	height: 0.05rem;
+	background-color: grey;
+	border-color: grey;
+	margin-bottom: 2rem;
+	margin-left: 0.1rem;
+	margin-right: 5rem;
+}
+.catfooter1 {
+	margin-left: 6rem;
+}

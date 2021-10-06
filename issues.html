@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ISSUESPAGE</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISSUESPAGE</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  	<form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search or jump to..." aria-label="Search">
     </form>
     <ul class="navbar-nav mr-auto">
@@ -78,3 +78,138 @@
     </ul>
   </div>
   </nav>
+  <div class="issuescontent">
+  <div class="cotainer">
+    <div class="row">
+      <div class="col6">
+        <div class="btn-group issuesbutton" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary active">Created</button>
+  <button type="button" class="btn btn-light">Assigned</button>
+  <button type="button" class="btn btn-light">Mentioned</button>
+     </div>
+      </div>
+      <div class="col3"></div>
+    
+    <div class="searchmain">
+      <!-- This is the actual search box -->
+    <div class="form-group">
+    <span class="fa fa-search form-control-feedback"></span>
+    <input type="text" class="form-control" placeholder="     is:issue author:KMensah aechived:false" aria-label="Input group example" aria-describedby="btnGroupAddon">
+    </div>
+   <!-- </div> -->
+    </div>
+    <div class="col3"></div>
+    </div>
+
+
+    <div class="row">
+      <div class="col8">
+        <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active openlink" href="#">Open</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link closed-link" href="#">Closed</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visibility</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#"><small>Repository Visibility</small></a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#"><small>Private repositories only</small></a>
+      <a class="dropdown-item" href="#"><small>Public repositories only</small></a>
+    </div>
+  </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Organization</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#"><small>Filter by organization owner</small></a>
+      <div class="dropdown-divider"></div>
+      <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+      <input class="form-control filterorganization" type="text" placeholder="Filter by organizations" aria-label="Search">
+      <a class="dropdown-item" href="#"><img src="images/dropdownlogo.png" width="20" height="20" alt="catlogo" class="catlogo"><small class="Korkoricon">KMensah</small></a>
+    </div>
+  </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle sort" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sort</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#"><small>Sort by:</small></a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#"><small>Oldest</small></a>
+      <a class="dropdown-item" href="#"><small>Most commented</small></a>
+      <a class="dropdown-item" href="#"><small>Least commented</small></a>
+      <a class="dropdown-item" href="#"><small>Recently updated</small></a>
+      <a class="dropdown-item" href="#"><small>Least recently updated</small></a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#"><small>Most reactions</small></a>
+      <a class="dropdown-item" href="#"><small><i class="fas fa-smile-beam"></i></small></a>
+      <a class="dropdown-item" href="#"><small><i class="far fa-grin-beam"></i></small></a>
+      <a class="dropdown-item" href="#"><small><i class="fas fa-thumbs-up"></i></small></a>
+
+    </div>
+    </ul>
+    </div>
+    <div class="col4"></div>
+
+      <div class="row">
+        <div class="col7">
+          <div class="card">
+  <div class="card-body">
+    <h2 class="text-center noresults">No results matched your search.</h2>
+    <p class="text-center">You could search <a href="3">all of GitHub</a> or try an <a href="#">advanced search.</a></p>
+  </div>
+</div>
+ </div>
+        <div class="col5"></div>
+      </div>
+
+      <div class="row">
+        <div class="col8">
+          <p class="Protip"> <i class="far fa-lightbulb"></i>ProTip! <a href="#">no:milestone</a> will show everything without a milestone.</p>
+        </div>
+        <div class="col4"></div>
+      </div>
+    </div>
+
+<br>
+<div class="formline5">
+  <div class="row">
+    <div class="col8">
+      <hr>
+    </div>
+  </div>
+  </div>
+<footer class="footer-align">
+      <div class="container">
+        <span class="textcolor"><small>&#169 2021 GitHub,Inc</small></span>
+        <a href="#"><small>Terms</small></a>
+      <a href="#"><small>Privacy</small></a>
+      <a href="#"><small>Security</small></a>
+      <a href="#"><small>Status</small></a>
+      <a href="#"><small>Docs</small></a>
+      <img src="images/github-cat2.png" width="30" height="30" class="catfooter1">
+  <span class="float-right">
+        <a href="#"><small>Contact GitHub</small></a>
+      <a href="#"><small>Pricing</small></a>
+      <a href="#"><small>API</small></a>
+      <a href="#"><small>Training</small></a>
+      <a href="#"><small>Blog</small></a>
+      <a href="#"><small>About</small></a>
+      <a href="#"><small>Testing</small></a>
+</span>
+      </div>
+ </footer>  
+  </div>
+  </div>
+
+  </div>
+
+   
+
+<!-- </div>
+</div> -->
+
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
